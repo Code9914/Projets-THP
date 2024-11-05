@@ -1,7 +1,8 @@
 .header-flex-left {
     display: flex;
-    justify-content: flex-start;
+    justify-content:flex-start;
     color: white;
+    margin: 10px;
 }
 
 .header-flex-right {
@@ -13,24 +14,39 @@
 }
 
 .a-propos {
-    margin: 10px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+.a-propos:hover {
+    text-decoration: underline;
 }
 
 .google-store {
-    margin: 10px;
+    cursor: pointer;
+}
+.google-store:hover {
+    text-decoration: underline;
 }
 
 .gmail {
     padding-right: 20px;
+    cursor: pointer;
+}
+.gmail:hover {
+    text-decoration: underline;
 }
 
 .images {
     padding-right: 20px;
+    cursor: pointer;
+}
+.images:hover {
+    text-decoration: underline;
 }
 
 .logo {
     margin-top: -1.5px;
-    padding-right: 20px;
+    cursor: pointer;
 }
 
 body {
@@ -43,4 +59,53 @@ body {
     font-size: 50px;
     justify-content: center;
     margin-top: 2.8em;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+    resize: none;
+}
+textarea {
+    resize: none;
+}
+
+#textarea {
+    background-color: gray;
+    border-radius: 20px;
+}
+
+.under-search {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.button-search {
+    color: white;
+    background-color: rgba(70, 70, 70, 0.685);
+    width: 12em;
+    height: 2.5rem;
+    border-width: 0;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.button-luck {
+    color: white;
+    background-color: rgba(70, 70, 70, 0.685);
+    width: 12em;
+    height: 2.5rem;
+    border-width: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bottom-flex {
+    color: white;
+    font-size: 8px;
+    background-color: #171717;
+    padding-left: 30px;
 }
