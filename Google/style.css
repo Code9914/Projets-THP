@@ -19,17 +19,11 @@
     padding-right: 20px;
     cursor: pointer;
 }
-.a-propos:hover {
-    text-decoration: underline;
-}
 
 .google-store {
     color: white;
     text-decoration: none;
     cursor: pointer;
-}
-.google-store:hover {
-    text-decoration: underline;
 }
 
 .gmail {
@@ -38,9 +32,6 @@
     padding-right: 20px;
     cursor: pointer;
 }
-.gmail:hover {
-    text-decoration: underline;
-}
 
 .images {
     color: white;
@@ -48,7 +39,7 @@
     padding-right: 20px;
     cursor: pointer;
 }
-.images:hover {
+.images:hover, .gmail:hover, .google-store:hover, .a-propos:hover  {
     text-decoration: underline;
 }
 
